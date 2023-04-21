@@ -1,0 +1,117 @@
+.testModal {
+    width: 100vw;
+        height: 100vh;
+    padding-top: 63px;
+    background-image: url("../images/bg-brain.png");
+        background-size: cover;
+        justify-content: space-between;
+        padding-bottom: 20px;
+}
+.progress {
+    display: block;
+    width: 260px;
+    height: 11px;
+    border: 1px solid var(--color-for-progress);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+progress {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+progress::-webkit-progress-bar {
+    background-color: #F2F3F3;
+    
+    }
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--color-for-progress);
+    
+}
+
+.question {
+    @include font($fs: 20px, $fw: 400, $lh: 26.5px);
+    margin-bottom: 38px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+   
+
+.inputCheck {
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin-right: 39px;
+    
+    
+}
+
+.wrap {
+    display: inline-block;
+    text-align: start;
+   
+    background-color: rgba(242, 243, 243, 0.15);
+        width: 100%;
+        padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 35px;
+            margin-bottom: 8px;
+}
+
+.colorWrap {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.square {
+    appearance: none;
+        height: 75px;
+        width: 75px;
+        
+}
+
+.imageQuestion {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 23px;
+}
+
+.checkboxWrap {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+// .imageContainer {
+//     width: 100vw;
+//         height: 50vh;
+//         display: flex;
+//         text-align: center;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: space-between;
+// }
+.littleSquare {
+    width: 41px;
+    height: 41px;
+}
+
+.btnNext {
+    font-family: var(--second-font);
+    color: #8E8E8E;
+    @include font($fs: 14px, $fw: 700, $lh: 17.6px);
+    padding-top: 13px;
+    padding-bottom: 10px;
+    width: 189px;
+    border-radius: 20px;
+    border: #8E8E8E;
+    background-color: #DADADA;
+    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+}

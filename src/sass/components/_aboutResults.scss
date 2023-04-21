@@ -1,0 +1,19 @@
+.containerAboutResults {
+    padding: 38px 11px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textAboutResults {
+    color: var(--text-dark-second);
+    @include font($fs: 16px, $fw: 400, $lh: 24px);
+    margin-bottom: 38px;
+    
+    text-align: start;
+}
+
+.textAboutResults span {
+    @include font($fs: 16px, $fw: 700, $lh: 24px);
+}
+

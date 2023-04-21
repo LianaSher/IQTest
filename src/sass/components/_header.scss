@@ -1,0 +1,32 @@
+.headerContainer {
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    
+    padding-left: 15px;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.btnBurger {
+    background-color: #181818;
+    border: none;
+    padding: 0;
+    
+}
+.iconBurger {
+    fill: #696969;
+}
+
+.headerText {
+    visibility: hidden;
+    font-family: var(--font-for-titles);
+    @include font($fs: 12px, $fw: 400, $lh: 13.86px);
+    color: var(--text-accent-color)
+    
+}
+.brainHeader {
+visibility: hidden;
+}

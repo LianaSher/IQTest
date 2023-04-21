@@ -1,0 +1,25 @@
+.aboutContainer {
+    padding: 50px 24px 32px 24px;
+    background-image: radial-gradient(circle at center,#2950C2 0%, rgba(38, 91, 199, 0.96) 40.63%, rgba(39, 98, 187, 0) 85.42%), url("../images/bg-second.png");
+    background-size: cover;
+    
+
+    
+    
+}
+
+.textAbout {
+    font-family: var(--font-for-titles);
+    @include font($fs: 18px, $fw: 400, $lh: 23px);
+    text-align: center;
+    margin-top: 17px;
+    
+}
+
+.closeQuotes {
+align-self: flex-end;
+  
+}
+.openQuotes {
+    align-self: flex-start;
+}

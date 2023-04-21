@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+@import './utils/mixins';
+@import './utils/vars';
+
+
+@import './base/common';
+@import './base/container';
+@import './components//header';
+@import './components/mainSection';
+@import './components/aboutTest';
+@import './components/aboutResults';
+@import './components/aboutPassing';
+@import './components/menu';
+@import './components/testModal'
