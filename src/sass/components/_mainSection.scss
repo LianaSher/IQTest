@@ -1,60 +1,54 @@
 .mainSection {
-    background-image:  url("../images/bg-brain.png");
-    background-size: cover;
-    position: relative;
-    padding-top: 73px;
-    padding-bottom: 11px;
-    width: 100vw;
-        height: 100vh;
-    
+  background-image: url('../images/bg-brain.png');
+  background-size: cover;
+  position: relative;
+  padding-top: 73px;
+  padding-bottom: 11px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .mainTitle {
-    // padding-top: 22px;
-    @include font($fs: 30px, $fw: 400, $lh: 34.65px);
-    color: var(--text-accent-color);
-    
-    display: flex;
-        flex-direction: column;
-        row-gap: 5px;
-        font-family: var(--font-for-titles);
-        & span {
-                @include font($fs: 18px, $fw: 400, $lh: 27px);
-                color: var(--text-main-color);
-        
-            }
-}
+  @include font($fs: 30px, $fw: 400, $lh: 34.65px);
+  color: var(--text-accent-color);
 
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  font-family: var(--font-for-titles);
+  & span {
+    @include font($fs: 18px, $fw: 400, $lh: 27px);
+    color: var(--text-main-color);
+  }
+}
 
 .btnPassTest {
-    background-color: var(--text-accent-color);
-    color: var(--text-dark-color);
-    @include font($fs: 14px, $fw: 700, $lh: 17.6px);
-    font-family: var(--second-font);
-    padding: 13px 17px;
-    width: 190px;
-    border: none;
-    border-radius: 20px;
-    
+  background-color: var(--text-accent-color);
+  color: var(--text-dark-color);
+  @include font($fs: 14px, $fw: 700, $lh: 17.6px);
+  font-family: var(--second-font);
+  padding: 13px 17px;
+  width: 190px;
+  border: none;
+  border-radius: 20px;
 }
 .textPromise {
-    font-family: var(--second-font);
-    @include font($fs: 15px, $fw: 700, $lh: 19px);
-    color: var(--text-accent-color);
-    margin-top: 22px;
-    margin-bottom: 11px;
+  font-family: var(--second-font);
+  @include font($fs: 15px, $fw: 700, $lh: 19px);
+  color: var(--text-accent-color);
+  margin-top: 22px;
+  margin-bottom: 11px;
 
-    & span {
-            color: var(--text-main-color);
-            margin-bottom: 11px;
-        }
-   
+  & span {
+    color: var(--text-main-color);
+    margin-bottom: 11px;
+  }
 }
 
 .iconArrow {
-   margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .linkToDetailes {
-@include font($fs: 8px, $fw: 400, $lh: 10.6px);
+  @include font($fs: 8px, $fw: 400, $lh: 10.6px);
 }

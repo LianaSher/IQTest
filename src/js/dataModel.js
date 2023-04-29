@@ -1,7 +1,7 @@
 import image8 from '../images/image-8.jpg';
 import image10 from '../images/image-10.jpg';
 import image11 from '../images/image 11.jpg';
-
+import group from '../images/group.png';
 export const data = [
   { id: 0, question: 'Ваш пол:', options: ['Мужчина', 'Женщина'] },
   {
@@ -89,8 +89,7 @@ export const data = [
   },
   {
     id: 11,
-    question: 'обработка результатов',
-    options:
-      'Определение стиля мышления..................................................................',
+    question: 'Oбработка результатов',
+    image: group,
   },
 ];

@@ -1,7 +1,6 @@
 @import './utils/mixins';
 @import './utils/vars';
 
-
 @import './base/common';
 @import './base/container';
 @import './components//header';
@@ -10,4 +9,5 @@
 @import './components/aboutResults';
 @import './components/aboutPassing';
 @import './components/menu';
-@import './components/testModal'
+@import './components/testModal';
+@import './components/lastScreen';

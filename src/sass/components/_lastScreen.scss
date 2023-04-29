@@ -1,0 +1,73 @@
+.screenContainer {
+  background-image: url('../images/bg-brain.png');
+  background-size: cover;
+
+  padding-top: 73px;
+  padding-bottom: 11px;
+  width: 100vw;
+  height: 100vh;
+}
+.title {
+  @include font($fs: 16px, $fw: 700, $lh: 16px);
+  letter-spacing: 1.6;
+  margin-bottom: 13px;
+}
+.message {
+  @include font($fs: 14px, $fw: 400, $lh: 18px);
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-bottom: 22px;
+}
+.appeal {
+  @include font($fs: 18px, $fw: 700, $lh: 22px);
+  letter-spacing: 1.6;
+  color: var(--color-for-progress);
+  margin-bottom: 12px;
+}
+.warning {
+  @include font($fs: 8px, $fw: 500, $lh: 14px);
+  font-family: var(--font-for-smth);
+  letter-spacing: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: var(--bg-color-dark);
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+}
+
+.timerText {
+  @include font($fs: 11px, $fw: 400, $lh: 30px);
+  color: var(--color-for-progress);
+}
+
+.timer {
+  @include font($fs: 20px, $fw: 400, $lh: 30px);
+  color: var(--color-for-progress);
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
+.timerWrap {
+  display: flex;
+  align-items: baseline;
+}
+.callBtn {
+  background-color: #eb1b00;
+  width: 290px;
+  height: 92px;
+  @include font($fs: 15px, $fw: 900, $lh: 17.58px);
+  font-family: var(--font-for-smth);
+  color: var(--text-main-color);
+  display: flex;
+  padding: 15px 30px;
+  align-items: center;
+  border-radius: 5px;
+}
+.answer {
+  padding: 0 20px;
+  text-align: start;
+  & > p {
+    display: block;
+  }
+}
